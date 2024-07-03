@@ -24,7 +24,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
         <!-- CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://main--profound-tiramisu-fb2889.netlify.app/css/style.min.css" rel="stylesheet">
 
 <!-- JavaScript Bundle with Popper -->
 
