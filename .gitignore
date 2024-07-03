@@ -1,2 +1,6 @@
-
+/composer.json
+/composer.locl
+/package-lock.json
+/package.json
+/vendor
 !.gitignore
