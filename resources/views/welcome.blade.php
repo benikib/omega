@@ -20,7 +20,7 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
         <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
   <!-- Material Icons -->
-        <link rel="icon" href="https://precipitous-transla.000webhostapp.com/Omego_logo.png" type="image/png">
+        <link rel="icon" href="https://6685870befca7e5e43ec7903--profound-tiramisu-fb2889.netlify.app/app/public/images/omego_logo.png" type="image/png">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
         <!-- CSS -->
