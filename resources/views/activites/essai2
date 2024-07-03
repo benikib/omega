@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questionnaire</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container my-5">
+    <h1 class="text-center">Questionnaire</h1>
+
+    <!-- Question 1 -->
+    <div class="card my-4">
+      <div class="card-body">
+        <h5 class="card-title">Question 1</h5>
+        <p class="card-text">Quelle est la capitale de la France ?</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question1" id="option1" value="option1">
+          <label class="form-check-label" for="option1">
+            Paris
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question1" id="option2" value="option2">
+          <label class="form-check-label" for="option2">
+            Londres
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question1" id="option3" value="option3">
+          <label class="form-check-label" for="option3">
+            Berlin
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="card my-4">
+      <div class="card-body">
+        <h5 class="card-title">Question 2</h5>
+        <p class="card-text">Quel est le plus grand océan du monde ?</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question2" id="option4" value="option4">
+          <label class="form-check-label" for="option4">
+            Océan Atlantique
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question2" id="option5" value="option5">
+          <label class="form-check-label" for="option5">
+            Océan Indien
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question2" id="option6" value="option6">
+          <label class="form-check-label" for="option6">
+            Océan Pacifique
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="card my-4">
+      <div class="card-body">
+        <h5 class="card-title">Question 3</h5>
+        <p class="card-text">Quel est le plus long fleuve d'Afrique ?</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question3" id="option7" value="option7">
+          <label class="form-check-label" for="option7">
+            Nil
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question3" id="option8" value="option8">
+          <label class="form-check-label" for="option8">
+            Congo
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question3" id="option9" value="option9">
+          <label class="form-check-label" for="option9">
+            Zambèze
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="card my-4">
+      <div class="card-body">
+        <h5 class="card-title">Question 4</h5>
+        <p class="card-text">Quel est le plus haut sommet du monde ?</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question4" id="option10" value="option10">
+          <label class="form-check-label" for="option10">
+            K2
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question4" id="option11" value="option11">
+          <label class="form-check-label" for="option11">
+            Kilimanjaro
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question4" id="option12" value="option12">
+          <label class="form-check-label" for="option12">
+            Mont Everest
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="card my-4">
+      <div class="card-body">
+        <h5 class="card-title">Question 5</h5>
+        <p class="card-text">Quel est le plus petit pays du monde ?</p>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question5" id="option13" value="option13">
+          <label class="form-check-label" for="option13">
+            Vatican
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question5" id="option14" value="option14">
+          <label class="form-check-label" for="option14">
+            Monaco
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="question5" id="option15" value="option15">
+          <label class="form-check-label" for="option15">
+            Nauru
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <button class="btn btn-primary">Soumettre</button>
+    </div>
+  </div>
+</body>
+</html>
