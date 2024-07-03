@@ -1,6 +1,6 @@
 <x-laravel-ui-adminlte::adminlte-layout>
     @yield('style')
-
+ <link rel="stylesheet" type="text/css" href="https://main--profound-tiramisu-fb2889.netlify.app/css/style.min.css" />
     <body class="hold-transition sidebar-mini layout-fixed">
         <div class="wrapper">
             <!-- Main Header -->
