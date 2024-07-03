@@ -74,7 +74,7 @@
     <div class="splash-screen container position-sticky z-index-sticky top-0">
     <div class="row">
       <div class="col-12">
-      @include('layouts.menupage')
+      
 
       </div>
     </div>
@@ -194,7 +194,7 @@
   </div>
 
 
-  @include('layouts.footer')
+  
 
         </div>
     </body>
