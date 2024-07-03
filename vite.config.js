@@ -35,9 +35,9 @@ export default defineConfig({
                 // this is required for the SCSS modules
                 find: /^~(.*)$/,
                 replacement: '$1',
-                
 
-                
+
+
             },
         ],
     },

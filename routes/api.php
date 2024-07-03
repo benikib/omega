@@ -6,6 +6,7 @@ use App\Http\Controllers\Api\EtudiantController;
 use App\Http\Controllers\Api\NoteController;
 use App\Http\Controllers\Api\ResultatController;
 use App\Http\Controllers\Api\ProfesseurController;
+use App\Http\Controllers\Api\LoginPharController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -32,6 +33,7 @@ Route::apiResource('etudiant',EtudiantController::class);
 Route::apiResource('professeur',ProfesseurController::class);
 Route::apiResource('note',NoteController::class);
 Route::apiResource('resultat',ResultatController::class);
+Route::apiResource('LoginPharm',LoginPharController::class);
 
 #search data routes
 #TO DO: only user connected have to get a permission
@@ -47,5 +49,6 @@ Route::post('auth/student/login',[LoginController::class,'student_login']);
 
 #deconnection route
 Route::post('auth/user/logout/{id}',[LoginController::class,'logout']);
+
 
 

@@ -42,7 +42,7 @@ class User extends Authenticatable
 
     public function resultats()
     {
-        return $this->hasOne(Resultat::class);
+        return $this->hasOne(Resultat::class,'score');
     }    public function reservation()
     {
         return $this->hasOne(Reserver::class);
