@@ -15,7 +15,7 @@
 
                         <div class="input-group mb-2">
                             <input type="text" name="nom"
-                                class="form-control @error('nom') is-invalid @enderror" value="{{ old('nom') }}"
+                                class="form-control @error('nom') is-invalid @enderror" value="{{ old('nom complet') }}"
                                 placeholder="nom">
                             <div class="input-group-append">
                                 <div class="input-group-text"><span class="fas fa-user"></span></div>
@@ -26,19 +26,7 @@
                                 </span>
                             @enderror
                         </div>
-                        <div class="input-group mb-3">
-                            <input type="text" name="prenom"
-                                class="form-control @error('prenom') is-invalid @enderror" value="{{ old('prenom') }}"
-                                placeholder="prenom">
-                            <div class="input-group-append">
-                                <div class="input-group-text"><span class="fas fa-user"></span></div>
-                            </div>
-                            @error('prenom')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror
-                        </div>
+
                         <div class="input-group mb-3">
                             <input type="text" name="telephone"
                                 class="form-control @error('telephone') is-invalid @enderror" value="{{ old('telephone') }}"
@@ -52,19 +40,7 @@
                                 </span>
                             @enderror
                         </div>
-                        <div class="input-group mb-3">
-                            <input type="text" name="adresse"
-                                class="form-control @error('adresse') is-invalid @enderror" value="{{ old('adresse') }}"
-                                placeholder="adresse">
-                            <div class="input-group-append">
-                                <div class="input-group-text"><span class="fas fa-user"></span></div>
-                            </div>
-                            @error('adresse')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror
-                        </div>
+
 
                         <div class="input-group mb-3">
                             <input type="email" name="email" value="{{ old('email') }}"
@@ -111,16 +87,16 @@
                                 </div>
                             </div>
                             <!-- /.col -->
-                            
+
                                 <button type="submit" class="btn btn-primary btn-block">S'inscrire</button>
                             </div>
                             <!-- /.col -->
                         </div>
                     </form>
-                    
+
                     <a href="{{ route('login') }}" class="text-center mb-3"> Vous avez déja un compte</a>
                 </div>
-                
+
                 <!-- /.form-box -->
             </div><!-- /.card -->
 
