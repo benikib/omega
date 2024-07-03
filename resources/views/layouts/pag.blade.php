@@ -22,7 +22,7 @@
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
         <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/style.min.css')}}" />
+        <link rel="stylesheet" type="text/css" href="https://main--profound-tiramisu-fb2889.netlify.app/css/style.min.css" />
 
 
 
