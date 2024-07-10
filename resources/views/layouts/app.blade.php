@@ -15,22 +15,12 @@
 
         <title>Omega Corporation admin</title>
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-        <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-
-        <link rel="icon" href="https://6685870befca7e5e43ec7903--profound-tiramisu-fb2889.netlify.app/app/public/images/omego_logo.png" type="image/png">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
-        <!-- CSS -->
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700">
-<link rel="stylesheet" href="/docs/3.0/assets/plugins/fontawesome-free/css/all.min.css">
-<link rel="stylesheet" href="/docs/3.0/assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
-<link rel="stylesheet" href="/docs/3.0/assets/css/docs.css">
-<link rel="stylesheet" href="/docs/3.0/assets/css/highlighter.css">
-<link rel="stylesheet" href="/docs/3.0/assets/css/adminlte.min.css">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700">
+<link rel="stylesheet" href="https://adminlte.io/docs/3.0/assets/plugins/fontawesome-free/css/all.min.css">
+<link rel="stylesheet" href="https://adminlte.io/docs/3.0/assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+<link rel="stylesheet" href="https://adminlte.io/docs/3.0/assets/css/docs.css">
+<link rel="stylesheet" href="https://adminlte.io/docs/3.0/assets/css/highlighter.css">
+<link rel="stylesheet" href="https://adminlte.io/docs/3.0/assets/css/adminlte.min.css">
 </head>
     <body class="hold-transition sidebar-mini layout-fixed">
         <div class="wrapper">
