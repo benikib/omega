@@ -16,6 +16,10 @@
         <title>Omega Corporation admin</title>
 
        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700">
+        
+        <link rel="stylesheet" href="https://cdn.datatables.net/responsive/3.0.0/css/responsive.dataTables.min.css">
+
+
 <link rel="stylesheet" href="https://adminlte.io/docs/3.0/assets/plugins/fontawesome-free/css/all.min.css">
 <link rel="stylesheet" href="https://adminlte.io/docs/3.0/assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
 <link rel="stylesheet" href="https://adminlte.io/docs/3.0/assets/css/docs.css">
@@ -87,7 +91,7 @@
                 reserved.
             </footer>
         </div>
-        
+    <script src="https://cdn.datatables.net/responsive/3.0.0/js/dataTables.responsive.min.js"></script>   
 <script src="https://adminlte.io//docs/3.0/assets/plugins/jquery/jquery.min.js"></script>
 <script src="https://adminlte.io//docs/3.0/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="https://adminlte.io//docs/3.0/assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
