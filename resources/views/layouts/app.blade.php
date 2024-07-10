@@ -87,6 +87,12 @@
                 reserved.
             </footer>
         </div>
+        
+<script src="https://adminlte.io//docs/3.0/assets/plugins/jquery/jquery.min.js"></script>
+<script src="https://adminlte.io//docs/3.0/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://adminlte.io//docs/3.0/assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<script src="https://adminlte.io//docs/3.0/assets/js/adminlte.min.js"></script>
+        <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
         @yield('scripts')
     </body>
 
