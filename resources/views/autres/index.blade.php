@@ -79,7 +79,7 @@
 @endpush
 
 
-@push('scripts')
+@section('scripts')
 <script src="https://adminlte.io//docs/3.0/assets/plugins/jquery/jquery.min.js"></script>
 <script src="https://adminlte.io//docs/3.0/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="https://adminlte.io//docs/3.0/assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
@@ -202,4 +202,4 @@ function addQuestion() {
   return questions;
 }
     </script>
-@endpush
+@endsection
