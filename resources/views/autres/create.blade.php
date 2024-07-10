@@ -46,7 +46,7 @@
     </div>
 
     <div class="col" id='coljeux'>
-    <form class="form-horizontal hide-form" action="javascript:void(0)" id="autre_admin" hide method="POST"  enctype="multipart/form-data">
+    <form class="form-horizontal hide-form" action="{{ route('autre_admin') }}" id="autre_admin" hide method="POST"  enctype="multipart/form-data">
             @csrf
             <div class="card-body">
                 <div class="form-group">
