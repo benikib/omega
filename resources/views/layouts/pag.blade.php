@@ -25,7 +25,11 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('css/style.min.css')}}" />
         <link href="https://main--profound-tiramisu-fb2889.netlify.app/css/style.min.css" rel="stylesheet">
 
+        <link href="https://main--profound-tiramisu-fb2889.netlify.app/css/style.min.css" rel="stylesheet">
 
+<!-- JavaScript Bundle with Popper -->
+
+        <link rel="stylesheet" type="text/css" href="https://main--profound-tiramisu-fb2889.netlify.app/css/style.min.css" rel="stylesheet" />
 
         <!-- Styles -->
 
