@@ -37,7 +37,7 @@ Route::get('/utilisateur', [App\Http\Controllers\RepportingController::class, 'u
 Route::post('/utilisateur/create', [App\Http\Controllers\RepportingController::class, 'utilisateur_store'])->name('utilisateur_admin');
 
 Route::get('/autre', [App\Http\Controllers\RepportingController::class, 'autre'])->name('autre');
-Route::post('store', [App\Http\Controllers\RepportingController::class, 'autre_store'])->name('autre_admin');
+Route::post('/store', [App\Http\Controllers\RepportingController::class, 'autre_store'])->name('autre_admin');
 Route::get('/resultat/{id}', [App\Http\Controllers\RepportingController::class, 'resultat'])->name('resultat');
 
 Route::get('/formation', [App\Http\Controllers\RepportingController::class, 'formation'])->name('formation');
