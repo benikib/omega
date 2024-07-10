@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('questionnaires', function (Blueprint $table) {
             $table->id();
             $table->json('question');
-            $table->foreignId('id_quiz')->constrained()->onDelete('cascade')->onUpdate('cascade');
+            
             $table->timestamps();
         });
     }
