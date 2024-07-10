@@ -68,18 +68,9 @@
 </section>
     @endsection
 
-@push('third_party_scripts')
-    <script src="{{ Vite::asset('node_modules/admin-lte/plugins/jquery/jquery.min.js?commonjs-entry') }}"></script>
-@endpush
-
-@push('page_css')
-    @vite('node_modules/admin-lte/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css')
-    @vite('node_modules/admin-lte/plugins/datatables-responsive/css/responsive.bootstrap4.min.css')
-    @vite('node_modules/admin-lte/plugins/datatables-buttons/css/buttons.bootstrap4.min.css')
-@endpush
-
 
 @section('scripts')
+<h1>bonjour</h1>
 <script src="https://adminlte.io//docs/3.0/assets/plugins/jquery/jquery.min.js"></script>
 <script src="https://adminlte.io//docs/3.0/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="https://adminlte.io//docs/3.0/assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
