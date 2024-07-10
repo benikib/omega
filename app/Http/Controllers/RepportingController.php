@@ -279,7 +279,8 @@ public function autre_store(Request $request){
     return response()->json(['id' => $autre->id], 202);
 
 } catch (\Throwable $th) {
-return response()->json(['message' => $th], 500);
+        
+return $th->getMessage();
 }
 
 
